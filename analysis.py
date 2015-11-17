@@ -93,9 +93,12 @@ def find_correlation(filename, voxel1, voxel2, t1, t2, time_period):
 	print "Correlation between ",voxel1," & ",voxel2," is ", corr
 	series1 = get_series(img_array,voxel1,t1,t2)
 	series2 = get_series(img_array,voxel2, t1,t2)
-	plt.plot(series1)
-	plt.plot(series2)
-
+	s1,= plt.plot(series1)
+	s2,= plt.plot(series2)
+	plt.legend([s1, s2], ['Voxel1', 'Voxel2'])
+	plt.title('Signal')
+	plt.xlabel('Time Period', fontsize=14, color='red')
+	plt.ylabel('Intensity', fontsize=14, color='red')
 	plt.show()
 
 def find_significant_correlation(filename, voxel1, voxel2, t1, t2, time_period):

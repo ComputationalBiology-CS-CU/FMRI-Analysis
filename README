@@ -2,17 +2,20 @@ Author: Chithra Srinivasan
 ==========================
 
 To run the program follow the format:
-python analysis.py <filename> <"x1,y1,z1,x2,y2,z2"> <choice>  <Starting Time> <Ending Time> <Time Period>
-where, 
+python analysis.py
+Prompts:
 	filename is the name of the nii file
 	x1,y1,z1 is the voxel of the seed 1
 	x2,y2,z2 is the voxel of the seed 2
 	choice is 1 or 2 - 1 is for finding correlation between two seeds - 2 is for finding significant correlation
 
-Example:
+Classification:
+python classification.py
+(Choose one of the techniques. "0" for all the techniques to run)
 
-python analysis.py cmh_01_func.nii 45,21,13,43,23,5 1  0 210 10
-python analysis.py cmh_01_func.nii 45,21,13,43,23,5 2  0 210 10
+Regression:
+python regression.py
+(Choose one of the techniques. Eg., 1, 2 or 5. "0" for all the techniques to run)
 
 Installation:
 =============

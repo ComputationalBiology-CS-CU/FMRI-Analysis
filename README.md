@@ -46,7 +46,7 @@ The coordinates are specified as values to the keys: Eg., [28,33,9], [30,28,9]
 These coordinates are defined as 'points' in analysis.py
 
 
-{	'ventral rostral putamen'	: 
+{	{'ventral rostral putamen':
 									{'orbital frontal cortex': np.array([28,33,9]),
 									 'Insula': np.array([45,21,13]), 
 									 'Subcollosal cortex': np.array([30,28,9]),
@@ -55,9 +55,8 @@ These coordinates are defined as 'points' in analysis.py
 									 'Dorsolateral Prefrontal cortex': np.array([45,32,20])
 									 },
 							 
-	'Nucleus Accumbens'			: 
-									{
-									'Middle Temporal Gyrus': np.array([45,3,16]),
+	'Nucleus Accumbens':
+									{'Middle Temporal Gyrus': np.array([45,3,16]),
 									'Inferios frontal gyrus': np.array([49,28,14]),
 									'Superior parietal lobule': np.array([36,0,25]),
 									'Thalamus': np.array([36,17,15]),
@@ -65,8 +64,8 @@ These coordinates are defined as 'points' in analysis.py
 									'Lateral occipital cortex': np.array([27,0,24])
 									},
 
-	'Dorsal Caudate' 			: {
-								   'inferior temporal gyrus': np.array([49,1,11]),
+	'Dorsal Caudate':
+								   {'inferior temporal gyrus': np.array([49,1,11]),
 								   'frontal pole': np.array([24,33,9]),
 								   'putamen': np.array([39,27,14]),
 								   'accumbens': np.array([30,28,14]),
@@ -76,25 +75,25 @@ These coordinates are defined as 'points' in analysis.py
 								   'superior frontal gyrus': np.array([37,29,28])
 								   },
 
-	'Dorsal caudal putamen' 	: {	
-									'Insula_-': np.array([50,21,17]),
+	'Dorsal caudal putamen':
+									{'Insula_-': np.array([50,21,17]),
 									'Insula_+': np.array([16,24,13]),
 									'Insula_=': np.array([45,19,14]),
 									'planum polare': np.array([13,20,16]),
 									'dorsolateral prefrontal cortex': np.array([45,31,20])
-								  },
+								  	},
 								
-	'Dorsal rostral putamen' 	: {
-									'Frontal operculum cortex': np.array([16,26,13]),
+	'Dorsal rostral putamen':
+									{'Frontal operculum cortex': np.array([16,26,13]),
 									'Insula': np.array([45,19,14]),
 									'Orbital frontal cortex': np.array([27,33,10]),
 									'Anterior cingulate cortex': np.array([28,40,16]),
 									'Middle temporal gyrus': np.array([52,6,14]),
 									'Middle frontal gyrus': np.array([45,31,20])
-								},
+									},
 
-	'Ventral caudate' 			: {
-									'Accumbens, putamen': np.array([37,28,11]), 
+	'Ventral caudate':
+									{'Accumbens, putamen': np.array([37,28,11]), 
 									'Accumbens, caudate': np.array([30,27,13]),
 									'middle frontal gyrus': np.array([43,23,5]),
 									'Thalamus_-': np.array([27,13,16]),
@@ -103,7 +102,6 @@ These coordinates are defined as 'points' in analysis.py
 									'Occipital cortex': np.array([27,0,18]),
 									'supramargival gyrus': np.array([18,10,17])
 									}
-	
 }
 
 

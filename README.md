@@ -1,13 +1,17 @@
 Author: Chithra Srinivasan
-==========================
 
+Introduction:
+=============
 To run the program follow the format:
 python analysis.py
+
 Prompts:
-	filename is the name of the nii file
-	x1,y1,z1 is the voxel of the seed 1
-	x2,y2,z2 is the voxel of the seed 2
-	choice is 1 or 2 - 1 is for finding correlation between two seeds - 2 is for finding significant correlation
+
+1. filename is the name of the nii file
+2. x1,y1,z1 is the voxel of the seed 1
+3. x2,y2,z2 is the voxel of the seed 2
+4. choice is 1 or 2 - 1 is for finding correlation between two seeds - 2 is for finding significant correlation
+
 
 Classification:
 python classification.py
@@ -25,16 +29,22 @@ numpy, scipy, pandas, nibabel, matplotlib
 Input Files:
 ============
 cmh_01_func.nii
+
 cmh_02_func.nii
+
 cmh_03_func.nii
+
 mrc_01_func.nii
+
 mrc_02_func.nii
+
 mrc_03_func.nii
 
 These are the various regions:
 ==============================
 The coordinates are specified as values to the keys: Eg., [28,33,9], [30,28,9]
 These coordinates are defined as 'points' in analysis.py
+
 {
 
 	'ventral rostral putamen'	: 

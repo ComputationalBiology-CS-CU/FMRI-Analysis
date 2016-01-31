@@ -45,8 +45,8 @@ These are the various regions:
 The coordinates are specified as values to the keys: Eg., [28,33,9], [30,28,9]
 These coordinates are defined as 'points' in analysis.py
 
-'''
 
+```
 {'ventral rostral putamen':
 									{'orbital frontal cortex': np.array([28,33,9]),
 									 'Insula': np.array([45,21,13]), 
@@ -105,7 +105,7 @@ These coordinates are defined as 'points' in analysis.py
 									}
 }
 
-'''
+```
 
 
 

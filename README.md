@@ -111,4 +111,5 @@ These coordinates are defined as 'points' in analysis.py
 
 # update:
 
-The new regression code is added, to draw the prediction errors treating all features as output (one by one).
+(by Shuo) The new regression code (with plotting) is added, to draw the prediction errors treating all features as output (one by one), in two classes and for all regression models.
+

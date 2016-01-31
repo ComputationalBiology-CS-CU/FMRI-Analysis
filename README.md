@@ -45,6 +45,7 @@ These are the various regions:
 The coordinates are specified as values to the keys: Eg., [28,33,9], [30,28,9]
 These coordinates are defined as 'points' in analysis.py
 
+'''
 {
 
 	'ventral rostral putamen'	: 
@@ -106,6 +107,7 @@ These coordinates are defined as 'points' in analysis.py
 									}
 	
 }
+'''
 
 
 
